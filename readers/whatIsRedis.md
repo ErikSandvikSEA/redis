@@ -55,7 +55,8 @@
 #### Custom indexing
 
 -  Reading data by more than one retrieval key
--  User:[UserId] User:[Name]
+-  User:[UserId]
+-  User:[Name]
 
 -  GET UserName: [Name]
 
@@ -63,3 +64,17 @@
 
 -  Different than SQL
 -  Only store data that you KNOW you'll use
+
+## General Security
+
+#### Security Model
+
+-  only meant to be accessed by trusted clients
+-  don't allow any external access if possible
+-  simple authentication can be set up
+-  redis can be restricted to certain interfaces
+
+#### Network Security
+
+-  denny access to main Redis port
+-  firewalled to prevent access
