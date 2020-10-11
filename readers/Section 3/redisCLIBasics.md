@@ -27,3 +27,17 @@
 
 -  returns 1 if the variable does exist
 -  returns 0 if it doesn't
+
+###### DEL
+
+-  deletes the variable
+-  DEL foo // gets rid of foo
+
+###### FLUSHALL
+
+-  acts as a cache clear
+-  gets rid of everything in memory
+
+###### EXPIRE
+
+-  can set a timeout for
