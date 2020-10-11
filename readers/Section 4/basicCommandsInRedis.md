@@ -28,7 +28,7 @@
 -  returns substring of a string value
 -  determined by offsets start and end
 -  Negative offsets can be used to start from the end of the string
--  GETRANGE mykey 0 - 1
+-  GETRANGE mykey 0 -1
 
 ##### RENAME
 
