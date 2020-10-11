@@ -1,4 +1,4 @@
-#### SCAN
+## SCAN
 
 -  iterates the set of keys in the database
 -  returns only a small amount per call
@@ -33,3 +33,12 @@
 -  iterate elements that match a pattern specified
 -  SCAN 0 MATCH something
 -  SCAN 0 Match k\*
+
+## KEYS
+
+-  returns all keys that match a specific pattern
+-  should be avoided in production, great for development
+
+##### RANDOMKEY
+
+-  returns a random key from the database
