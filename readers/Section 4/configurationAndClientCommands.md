@@ -10,4 +10,4 @@
 
 ##### CONFIG GET \* - list of all supported config params
 
-##### CONFIG GET _max-_-entries\* - hash-max-zipmap-entries, list-max-ziplist-entries, etc
+##### CONFIG GET \*max-\*-entries\* - hash-max-zipmap-entries, list-max-ziplist-entries, etc
