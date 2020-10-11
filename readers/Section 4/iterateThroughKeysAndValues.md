@@ -12,7 +12,7 @@
 -  iteration starts when cursor is set to 0
 -  terminates when cursor returned from the server is 0
 
-###### Guarantees
+### Guarantees
 
 -  full iterations will retrieve all elements that were present in the
    collection from the start to the end
