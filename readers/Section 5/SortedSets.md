@@ -22,3 +22,11 @@
 -  ZADD people 1960 "John Doe" // adds "John Doe" to the people set, with a
    score of 1960
 -  ZREM people "John Doe" // removes from set
+
+### ZRANGE
+
+-  fetches values within a specific range, ordered lowest to highest by score
+
+### ZREVRANGE
+
+-  fetches values within a specific range, ordered highest to lowest by score
